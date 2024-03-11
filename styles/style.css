@@ -1,20 +1,40 @@
 /* 1. don't modify this style */
 * {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* 2. we use :root for default variables */
 :root {
-  /* --"somekey-attr": "somevalue" i.e : */
-  --black-700: #000;
+    --secondary: #FA8305;
+    --primary-100: #5141AA;
+    --black: #070707;
+    --box_bg: #1C140F;
+    --primary: #3B2A9F;
 }
-/* 3. and we use it like this */
-.elementOne {
-  /* var(--"somekey-attr") */
-  background-color: var(--black-700);
+
+.all {
+    background-color: var(--primary);
+    width: 1440px;
+}
+
+/*medium font*/
+/*.class {*/
+/*  font-family: "Poppins", sans-serif;*/
+/*  font-weight: 500;*/
+/*  font-style: normal;*/
+/*}*/
+/*bold font*/
+.boldF {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.mainClass {
+    width: 1140px;
 }
 
 /* good luck */
