@@ -15,10 +15,17 @@
     --primary: #3B2A9F;
 }
 
-.all {
+li, ul, article {
+    display: inline-block;
+    padding: 0;
+}
+
+
+.all2 {
     font-family: Poppins;
     background-color: var(--primary);
     width: 1440px;
+    color: #FFFFFF;
 }
 
 @font-face {
@@ -38,7 +45,6 @@
     margin-top: 25px;
     margin-left: 59px;
     margin-bottom: 30px;
-    color: #FFFFFF;
 }
 
 .home {
@@ -46,10 +52,9 @@
     display: inline-block;
     font-size: 16px;
     margin-left: 560px;
-    color: #FFFFFF;
 }
 
-div, p, h1, img {
+div, p, h1, img, footer, main, header {
     padding: 0;
 }
 
@@ -68,48 +73,81 @@ div, p, h1, img {
     display: inline-block;
     font-size: 16px;
     margin-left: 88px;
-    color: #FFFFFF;
+}
+
+header {
+    width: 100%;
 }
 
 .theme {
     margin: 10px 55px 11px;
     line-height: 20px;
-    color: #FFFFFF;
+}
+
+#headerS1 {
+    position: absolute;
+    top: 70px;
+    left: 840px;
+    background-color: var(--secondary);
+    border-radius: 20px;
+    width: 38px;
+    height: 4px;
+
+
+}
+
+#headerS2 {
+    position: absolute;
+    top: 70px;
+    left: 880px;
+    background-color: var(--secondary);
+    border-radius: 20px;
+    width: 5px;
+    height: 4px;
+
+
+}
+
+
+.mainClass {
+    width: 1140px;
 }
 
 .div1 {
     width: 527px;
     height: 510px;
-    margin: 103px 98px 180px 148px;
+    margin: 103px 0 180px 148px;
 }
 
 .pInDiv1 {
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 13px;
+    font-weight: 330;
     color: var(--secondary);
+    margin-bottom: 38px;
 }
 
-.hInDiv1 {
+.pInDiv1 > span {
+    color: #FFFFFF;
+}
+
+.hDiv1 {
     width: 480px;
     height: 234px;
     margin-top: 17px;
-    margin-bottom: 26px;
-    font-size: 50px;
+    margin-bottom: 0;
+    font-size: 35px;
     font-weight: 700;
-    color: #FFF;
 }
 
-.p2InDiv1 {
+.p2Div1 {
+    padding: 0;
     width: 527px;
     height: 110px;
-    color: #FFF;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
+    line-height: 33px;
 }
 
-.mainClass {
-    width: 1140px;
-}
 
 .more {
     width: 195px;
@@ -119,253 +157,240 @@ div, p, h1, img {
     border-radius: 30px;
 }
 
-.moreText {
+.touch {
     display: inline-block;
-    width: 134px;
+    position: absolute;
+    width: 100px;
     height: 24px;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    margin: 15px 31px 15px 30px;
-    color: #FFFFFF;
+    margin-top: 14px;
+    margin-left: 20px;
     text-decoration: none;
     text-align-all: center;
-}
-
-.firstImgBox {
-    position: absolute;
-}
-
-#img1 {
-    top: 409px;
-    left: 650px;
-}
-
-#img2 {
-    width: 806px;
-    height: 761px;
-    position: absolute;
-    left: 772px;
-    top: 100px;
-
-}
-
-#img3 {
-    top: 202px;
-    left: 828px;
-}
-
-#img4 {
-    top: 218px;
-    left: 1168px;
-}
-
-#centerDiv1 {
-    display: inline-block;
-    width: 404px;
-    height: 58px;
-    margin: 180px 443px 57px 148px;
-    font-family: Rubik;
-    font-size: 31px;
-    font-weight: 700;
-    line-height: 58px;
-    letter-spacing: 0;
-    text-align: left;
-    color: #FFFFFF;
-
-}
-
-.centerDiv2 {
-    display: inline-block;
-    width: 139px;
-    height: 57px;
-    margin-top: 132px;
-    margin-bottom: 58px;
-    border-radius: 10px;
-    background-color: var(--primary-100);
-
-}
-
-.seeAll {
-    display: inline-block;
-    width: 79px;
-    height: 38px;
-    margin: 10px 30px;
-    font-family: Rubik;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 38px;
     color: #FFFFFF;
 }
 
-#seeAll2 {
-    margin: 35px 0 100px 650px;
+#arrow {
+    display: inline-block;
+    width: 14px;
+    height: 13px;
+    margin-top: 19px;
+    margin-left: 150px;
+
 }
 
-.imgLine {
+#myImg1 {
+    position: absolute;
+    width: 739px;
+    height: 656px;
+    top: 121px;
+    left: 701px;
+
+}
+
+#centDiv1 {
+    font-size: 25px;
+    font-weight: 590;
+    margin-left: 135px;
+    margin-bottom: 60px;
+    color: #FFFFFF;
+}
+
+.centDivInGame {
     display: inline-block;
-    width: 218px;
-    height: 245px;
+    width: 370px;
+    height: 348px;
     border-radius: 20px;
-    margin-left: 33px;
-    margin-bottom: 15px;
+    background-color: var(--box_bg);
+    margin-left: 40px;
+
 }
 
-.imgLine:hover {
-    opacity: 65%;
+#centDivInGame1 {
+    margin-left: 135px;
 }
 
-li, ul, article {
+#centDivInGame2 {
+    position: absolute;
+}
+
+.pInCentDiv {
+    width: 140px;
+    height: 39px;
+    margin-left: 37px;
+    margin-top: 60px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 350;
+    padding: 12px;
+    background-color: #B000DC1C;
+
+}
+
+
+#centerDivGame {
+    width: 1440px;
+    height: 603px;
+    margin-top: 140px;
+    background-color: var(--box_bg);
+}
+
+#imgInCentDivGame {
     display: inline-block;
-    padding: 0;
+    width: 496px;
+    height: 490px;
+    border-radius: 24px 24px 0 0;
+    margin-top: 110px;
+    margin-left: 110px;
 }
 
-#img5 {
-    margin-left: 140px;
-
-}
-
-.followers {
-    display: inline-block;
-    margin-left: 5px;
-    width: 170px;
-    height: 41px;
-    font-family: Rubik;
-    font-size: 22px;
-    font-weight: 500;
-    line-height: 41px;
+#centerDivGame1 {
     color: #FFFFFF;
-    text-align: left;
-
-
-}
-
-#icon-container1 {
     display: inline-block;
-    margin-left: 160px;
+    position: relative;
+    top: -110px;
+    left: 90px;
+    height: 470px;
+}
+
+#p1centerDivGame {
+    font-size: 16px;
+    font-weight: 470;
+    margin-bottom: 14px;
+    letter-spacing: 1px;
 
 }
 
-.icon-container {
-    display: inline-block;
-    margin-left: 45px;
-}
-
-.icon {
-    display: inline-block;
-    width: 16px;
-    height: 20px;
-    margin-left: 8px;
-    transition: transform 0.6s; /* Add a smooth transition effect */
+#p2centerDivGame {
+    width: 530px;
+    height: 150px;
+    font-size: 28px;
+    font-weight: 570;
+    margin-bottom: 14px;
+    letter-spacing: 1px;
 
 }
 
-.icon-container:hover .icon {
-    transform: scale(1.7); /* Enlarge the image on hover */
-}
-
-#centerP {
-    width: 826px;
-    height: 132px;
-    color: #FFFFFF;
-    font-size: 35px;
-    font-weight: 500;
-    line-height: 66px;
-    text-align: center;
-    margin: 129px 306px 67px 308px;
+#p3centerDivGame {
+    width: 530px;
+    height: 160px;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 1px;
 
 }
 
-.lastTextDiv {
-    margin-left: 140px;
+.textDiv {
+    margin-left: 35px;
     color: #FFFFFF;
 }
 
-.p1lastTextDiv {
+.p1TextDiv {
     height: 40px;
-    font-size: 32px;
+    font-size: 20px;
     font-weight: 550;
     line-height: 56px;
     text-align: left;
     margin-bottom: 32px;
+    margin-top: 10px;
+
+}
+
+.p2TextDiv {
+    width: 305px;
+    height: 101px;
+    font-size: 14px;
+    font-weight: 350;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+#p2InCentDiv {
+    background-color: #DC42001C;
+}
+
+#p3InCentDiv {
+    background-color: #00DC8D1C;
+
+}
+
+#ourTeam {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 140px;
+    margin-left: 110px;
+}
+
+.avatarDiv {
+    display: inline-block;
+    width: 290px;
+    height: 253px;
+    border-radius: 20px;
+    background-color: var(--box_bg);
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+#avatarDiv1 {
+    margin-left: 105px;
+}
+
+.imgAvatarDiv {
+    width: 123px;
+    height: 123px;
+    margin-top: 30px;
+    margin-left: 85px;
+}
+
+.p1avatarDiv {
+    font-weight: 550;
+    font-size: 19px;
+    text-align: center;
+}
+
+.p2avatarDiv {
+    font-weight: 230;
+    font-size: 17px;
+    color: #E8E8E8;
+    text-align: center;
+}
+
+#imgAvatarDiv1 {
+    width: 90px;
+    height: 90px;
+    margin: 43px 0 16px 100px;
+}
+
+#avatarDiv2 {
+    position: absolute;
+}
+
+.lastTextDiv {
+    margin-left: 130px;
+    margin-top: 155px;
+}
+
+.p1lastTextDiv {
+    font-size: 30px;
+    font-weight: 570;
 
 }
 
 .p2lastTextDiv {
-    width: 600px;
-    height: 101px;
-    font-size: 17px;
-    font-weight: 350;
-    line-height: 30px;
-    text-align: left;
-    letter-spacing: 0.5px;
-
-}
-
-#rect4 {
-    margin-left: 140px;
-    border-radius: 5px;
-
-}
-
-#lastDiv {
-    margin: 148px 0 0 120px;
-    color: #FFFFFF;
-    width: 1140px;
-}
-
-#p1lastDiv {
-    margin-left: 115px;
-    margin-bottom: 15px;
-    font-size: 30px;
-    font-weight: 600;
-    line-height: 56px;
-    text-align: center;
-
-}
-
-#p2lastDiv {
-    width: 497px;
+    width: 545px;
     height: 57px;
-    margin-left: 380px;
-    margin-bottom: 70px;
-    font-size: 14px;
-    font-weight: 300;
-    text-align: center;
-
-}
-
-.imgBox {
-    display: inline-block;
-    margin-left: 17px;
-    margin-bottom: 15px;
-}
-
-.size1 {
-    width: 33%;
-}
-
-#size2 {
-    width: 28%;
-}
-
-#size3 {
-    width: 20%;
-}
-
-#size4 {
-    width: 35%;
-}
-
-#size5 {
-    width: 39%;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 370;
 }
 
 #formDiv {
     width: 1140px;
     height: 191px;
     margin: 74px 0 163px 130px;
-    color: #FFFFFF;
     background-color: var(--box_bg);
     border-radius: 15px;
 
@@ -398,7 +423,7 @@ li, ul, article {
 
 .form {
     position: absolute;
-    top: 3815px;
+    top: 3010px;
     left: 807px;
     display: inline-block;
     width: 380px;
@@ -443,34 +468,10 @@ li, ul, article {
 
 }
 
-#headerStyle1 {
-    position: absolute;
-    top: 70px;
-    left: 690px;
-    background-color: var(--secondary);
-    border-radius: 20px;
-    width: 38px;
-    height: 4px;
-
-
-}
-
-#headerStyle2 {
-    position: absolute;
-    top: 70px;
-    left: 730px;
-    background-color: var(--secondary);
-    border-radius: 20px;
-    width: 5px;
-    height: 4px;
-
-
-}
 
 footer {
-    color: #FFFFFF;
     background-color: black;
-    width: 1440px;
+    width: 100%;
     height: 376px;
 
 }
@@ -507,12 +508,7 @@ footer {
 
 }
 
-#div2 {
-    display: inline-block;
-    top: 4170px;
-}
-
-#div3 {
+.div3 {
     display: inline-block;
     top: 4170px;
 }
@@ -538,33 +534,10 @@ footer {
 
 }
 
-#div3 > .myUl > .myLi {
+.div3 > .myUl > .myLi {
     width: 282px;
 }
 
-#headerStyle1 {
-    position: absolute;
-    top: 70px;
-    left: 690px;
-    background-color: var(--secondary);
-    border-radius: 20px;
-    width: 38px;
-    height: 4px;
-
-
-}
-
-#headerStyle2 {
-    position: absolute;
-    top: 70px;
-    left: 730px;
-    background-color: var(--secondary);
-    border-radius: 20px;
-    width: 5px;
-    height: 4px;
-
-
-}
 
 #leftFooter {
     display: flex;
@@ -632,5 +605,3 @@ footer {
     font-weight: 600;
     font-size: 14px;
 }
-
-/* good luck */
